@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5426c8ce1b.js" crossorigin="anonymous"></script>
+    <!-- <script src="js/script.js"></script> -->
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT ME</a></li>
+                    <li><a href="#services">SKILLS</a></li>
+                    <li><a href="#education">EDUCATION</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hii there, I'm <br><span>Yasmeen</span> Mahilang</h1>
+                <a href="images/Resume-Yasmeen Mahilang.pdf" download class="btn btn2">Download CV</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------ ABOUT ----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <!-- user image -->
+                    <img src="images/user.jpeg">
+                </div>
+
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <p>I'm a pre-final year student currently pursuing a major in Information Technology at the National
+                        Institute of Technology, Raipur. <br>
+                        Currently, I'm focusing on my problem-solving skills in DSA and Competitive Programming. <br>
+                        Additionally, I have a great passion for Web Development, I'm a newbie in it and have completed a few projects using HTML, CSS, and JavaScript.</p>
+                        
+                        <p>Check Out my profile Links.</p>
+                    <h2 class="profile-title">Profile Links</h2>
+                    <div class="profile-list">
+                        <div>
+                            <img src="/images/leetcode.png"><br>
+                            <a href="https://leetcode.com/yaaassmeen06/" target="_blank">LeetCode</a>
+                        </div>
+                        <div>
+                            <img src="/images/gfg.png"><br>
+                            <a href="https://auth.geeksforgeeks.org/user/yasmeen06" target="_blank">GFG</a>
+                        </div>
+                        <div>
+                            <img src="/images/codechef.png"><br>
+                            <a href="https://www.codechef.com/users/yasmeencodes" target="_blank">CodeChef</a>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-github"></i><br>
+                            <a href="https://github.com/yaaassmeen" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- ******************Skills****************** -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend Development</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                    </ul>
+                </div>
+                <div>
+                    <i class="fa-solid fa-book"></i>
+                    <h2>CS Fundamentals</h2>
+                    <ul>
+                        <li>OOPS</li>
+                        <li>Operating System</li>
+                        <li>Database Management System</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skipped portfolio section -->
+
+    <!-- -----------Education---------- -->
+    <div id="education">
+        <div class="container">
+            <h1>Education</h1>
+            <p>Academics and Qualification</p>
+            <div class="card-container">
+                <div class="card" id="card1">
+                    <i class="fa-solid fa-graduation-cap"></i><br>
+                    <ul>
+                        <li>BTech Specialization: IT</li>
+                        <p>NIT Raipur 2025</p>
+                        <li>CPI: <span>8.38</span>(till 4<sup>th</sup> Sem)</li>
+
+                    </ul>
+                </div>
+                <div class="card" id="card2">
+                    <i class="fa-solid fa-building-columns"></i>
+                    <ul>
+                        <li>AISSCE(12<sup>th</sup> Boards)</li>
+                        <p>KPS Nehru Nagar: 2020</p>
+                        <li>PERCENTAGE: <span>91.80%</span></li>
+                    </ul>
+                </div>
+                <div class="card" id="card3">
+                    <i class="fa-solid fa-school"></i><br>
+                    <ul>
+                        <li>AISSE(10<sup>th</sup> Boards)</li>
+                        <p>KV Kusmunda: 2018</p>
+                        <li>PERCENTAGE: <span>85.20%</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------Contact--------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>yasmeen2002mahilang@gmail.com</p>
+                    <p><i class="fa-brands fa-whatsapp"></i>(+91) 7224003135</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/yasmeen-mahilang-5a9b681b7/" target="_blank"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/yaaassmeen_/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100086376695379" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Enter Name" required>
+                        <input type="email" name="email" placeholder="Enter Email" required>
+                        <textarea name="Message" rows="6" placeholder="Enter Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class="fa-regular fa-copyright" style="color: #ffffff;"></i> Yasmeen. All rights Reserved</p>
+        </div>
+    </div>
+
+    <!-- Education -->
+
+
+    <script>
+        // Get the card container and cards
+        const cardContainer = document.querySelector('.card-container');
+        const cards = Array.from(cardContainer.querySelectorAll('.card'));
+
+        let currentCardIndex = 0;
+
+        function showNextCard() {
+            // Hide all cards
+            cards.forEach(card => {
+                card.style.display = 'none';
+            });
+
+            // Show the current card
+            cards[currentCardIndex].style.display = 'block';
+
+            // Increment the current card index
+            currentCardIndex++;
+
+            // Check if we have reached the end of the cards, then start from the beginning
+            if (currentCardIndex >= cards.length) {
+                currentCardIndex = 0;
+            }
+        }
+
+        // Call the showNextCard function initially
+        showNextCard();
+
+        // Call the showNextCard function every 2 seconds
+        setInterval(showNextCard, 2000);
+    </script>
+
+
+    <script>
+        // small screen nav to side menu bar
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
